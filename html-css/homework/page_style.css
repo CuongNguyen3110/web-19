@@ -1,0 +1,146 @@
+body {
+    background-image: url("https://i.imgur.com/aljloFP.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 500px;  
+    background-color: rgb(238, 224, 224); 
+}
+
+.menu {
+    display: flex;
+    background-color: #D5B0AC;
+    height: 30px;
+    justify-content: center;
+}
+
+/* .menu_vertical {
+    display: flex;
+    flex-direction: column;
+} */
+
+span {
+    background-color: #D5B0AC;
+    color: green;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+span:hover {
+    background-color: #9CD08F;
+    color: #FFFFFF;
+}
+
+.head {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    margin: 80px 0 0 80px;
+}
+
+.body-1 {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 350px 0 0 80px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+}
+
+h3, h5 {
+    margin: 0;
+}
+
+.body-2 {
+    display: flex;
+    height: 400px;
+    margin: 40px 40px 0 40px;
+}
+
+#box-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.box {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.box:hover {
+    color: cyan;
+}
+
+#box-1 {
+    background-image: url("https://lonelyplanetimages.imgix.net/mastheads/93931301.jpg?sharp=10&vib=20&w=1200");
+}
+
+#box-2 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJbNx_IxGAAk7MQU2oujIZ8TatJGWyzuBvQmvN9bfY3cy4E_IKUA");
+}
+
+#box-3 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKKNII-0T8rfqGqmINeiVWO6PkK8SZVxFbdx3noBB9Ci6JkWD2");
+}
+
+#box-4 {
+    background-image: url("https://photos.mandarinoriental.com/is/image/MandarinOriental/paris-2017-home?wid=2880&hei=1280&fmt=jpeg&crop=9,336,2699,1200&anchor=1358,936&qlt=75,0&fit=wrap&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&iccEmbed=0&printRes=72");
+}
+#box-5 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background-image: url("https://st1.photogallery.ind.sh/wp-content/uploads/indiacom/a-beautiful-view-of-maldives-201610-1477052315.jpg");
+    background-size: 95% 95%;
+} 
+
+#box-5 p {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 30px 30px;
+    justify-content: left;
+    flex-grow: 1;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h6 {
+    font-size: 35px;
+    margin: 0;
+}
+
+
+

@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+    background-color: green; 
+    background-image:    
+}
+
+p {
+    text-align: center;
+    width: 500px;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    padding: 5px 12px 24px 50px;
+    padding: 10px 50px;
+    display: inline-block;
+}
+
+.heading2, #top, h6, ul {
+    color: blue;
+    font-size: 80px;
+}
+
+#top {
+    font-weight: 300;
+}
+
+ol li {
+    color: cyan;
+}
+
+ol>li {
+    color: orange;
+}
+
+p:hover {
+    color: rgb(94, 155, 89);
+}
+
+a:active {
+    color: yellow;
+}
+
