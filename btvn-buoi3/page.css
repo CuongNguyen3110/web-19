@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    --margin-left: 20%;
+    font-family: 'Concert One', cursive;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    border-right: 1px solid gray;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    background-color: red;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: var(--margin-left);
+}
+
+.profile p {
+    font-size: 40px;
+    margin-left: var(--margin-left);
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    color: black;
+    position: relative;
+    margin-left: var(--margin-left);
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.foot {
+    margin-left: var(--margin-left);
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.body {
+    width: 80%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.body h2 {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px 10px 20px 10px;
+}
+
+.box img {
+    background-color: purple; 
+    width: 60px;
+    height: 60px;
+}
+
+.box p {
+    margin: 0;
+    font-weight: lighter;
+    font-family: 'Hind Guntur', sans-serif;
+    line-height: 20px;
+}
+
+.highlight {
+    display: none;
+    width: 40px;
+    height: 5px;
+    background-color: rgb(187, 125, 187);
+    position: absolute;
+    top: 12px;
+    z-index: -1;
+}
+
+a:hover .highlight {
+    display: block;
+}

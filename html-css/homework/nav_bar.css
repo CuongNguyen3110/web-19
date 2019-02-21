@@ -1,13 +1,21 @@
-/* .menu {
+.menu {
     display: flex;
     background-color: #D5B0AC;
     height: 30px;
     justify-content: center;
-} */
+}
 
 .menu_vertical {
-    display: flex;
+    display: none;
     flex-direction: column;
+    height: 120px;
+    position: relative;
+}
+
+.menu_right {
+    position: absolute;
+    left: 100px;
+    top: 0px;
 }
 
 span {
@@ -18,10 +26,15 @@ span {
     height: 30px;
     justify-content: center;
     align-items: center;
-    margin-top: 1px;
 }
 
 span:hover {
     background-color: #9CD08F;
     color: #FFFFFF;
 }
+
+.dropdown:hover > .menu_vertical {
+    display: flex;
+}
+
+
